@@ -2,15 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #050505;
-    color: rgb(255, 0, 0);
+    background: #ffffff;
+    color: black;
 }
 
 .hero {
-    background-image: url("images/header-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 100px;
+    padding: 10px;
     text-align: center;
     color: black;
 }
@@ -24,6 +21,16 @@ body {
     align-items: center;
 }
 
+.content {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 10%;
+}
+
+
 .btn {
     padding: 10px 20px;
     background: #0078ff;
@@ -31,3 +38,4 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
+
